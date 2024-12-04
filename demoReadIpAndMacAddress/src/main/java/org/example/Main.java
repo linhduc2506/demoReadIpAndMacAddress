@@ -32,8 +32,7 @@ public class Main {
                 System.out.println("Không thể lấy địa chỉ MAC.");
             }
 
-        } catch (UnknownHostException e) {
-            System.err.println("Không thể tìm thấy địa chỉ IP của máy.");
+        }
         } catch (Exception e) {
             System.err.println("loi con me no roi");
         }
