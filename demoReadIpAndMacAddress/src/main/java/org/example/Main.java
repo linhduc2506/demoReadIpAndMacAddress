@@ -32,7 +32,8 @@ public class Main {
                 System.out.println("Không thể lấy địa chỉ MAC.");
             }
 
-        }
+        } catch (){
+
         } catch (Exception e) {
             System.err.println("loi con me no roi");
         }
