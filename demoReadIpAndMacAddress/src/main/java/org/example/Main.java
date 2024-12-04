@@ -34,6 +34,8 @@ public class Main {
 
         } catch (UnknownHostException e) {
             System.err.println("Không thể tìm thấy địa chỉ IP của máy.");
+        } catch (Exception e) {
+            System.err.println("loi con me no roi");
         }
     }
 }
